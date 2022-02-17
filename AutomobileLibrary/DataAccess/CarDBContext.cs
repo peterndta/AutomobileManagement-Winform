@@ -71,7 +71,7 @@ namespace AutomobileLibrary.DataAccess
             }
             else
             {
-                throw new Exception("Car is already exists.");
+                throw new Exception("Car does not already exist.");
             }
         }
         //--------------------------------------------------

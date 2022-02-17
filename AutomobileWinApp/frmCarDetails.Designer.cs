@@ -176,6 +176,7 @@
             this.Name = "frmCarDetails";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCarDetails";
+            this.Load += new System.EventHandler(this.frmCarDetails_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

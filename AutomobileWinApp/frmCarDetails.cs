@@ -18,12 +18,6 @@ namespace AutomobileWinApp
         {
             InitializeComponent();
         }
-
-        private void Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnSave_Click(object sender, EventArgs e)
         {
             try
@@ -46,13 +40,13 @@ namespace AutomobileWinApp
                 }
             } catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, InsertOrUpdate == false ? "Add a new car" : "Update a car");
+                MessageBox.Show(ex.Message, InsertOrUpdate==false?"Add a new car": "Update a car");
             }
         }//end btnSave_Click
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Cancel");
+            Close();
         }
         //-----------------------------------------------------------
         public ICarRepository CarRepository { get; set; }

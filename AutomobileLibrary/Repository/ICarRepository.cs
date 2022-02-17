@@ -12,7 +12,7 @@ namespace AutomobileLibrary.Repository
         IEnumerable<Car> GetCars();
         Car GetCarById(int carId);
         void InsertCar(Car car);
-        void DeleteCar(int car);
+        void DeleteCar(int carId);
         void UpdateCar(Car car);
 
     }

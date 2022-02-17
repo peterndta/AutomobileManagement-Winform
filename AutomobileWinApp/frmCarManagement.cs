@@ -45,7 +45,7 @@ namespace AutomobileWinApp
             {
                 LoadCarList();
                 //Set focus car updated
-                source.Position = source.Position - 1;
+                source.Position = source.Count - 1;
             }
         }
         //Clear txt on TextBoxes
@@ -94,6 +94,12 @@ namespace AutomobileWinApp
                 txtPrice.DataBindings.Clear();
                 txtReleaseYear.DataBindings.Clear();
 
+                txtCarID.DataBindings.Add("Text", source, "CarID");
+                txtCarName.DataBindings.Add("Text", source, "CarName");
+                txtManufacturer.DataBindings.Add("Text", source, "Manufacturer");
+                txtPrice.DataBindings.Add("Text", source, "Price");
+                txtReleaseYear.DataBindings.Add("Text", source, "ReleaseYear");
+
                 dgvCarList.DataSource = null;
                 dgvCarList.DataSource = source;
                 if(cars.Count() == 0)
@@ -115,17 +121,39 @@ namespace AutomobileWinApp
         //--------------------------------------------------------------
         private void btnLoad_Click(object sender, EventArgs e)
         {
-
-        }
-
+            LoadCarList();
+        }//end btnLoad_Click
+         //-------------------------------------------------------------
         private void btnNew_Click(object sender, EventArgs e)
         {
-
+            frmCarDetails frmCarDetails = new frmCarDetails
+            {
+                Text = "Add car",
+                InsertOrUpdate = false,
+                CarRepository = carRepository,
+            };
+            if(frmCarDetails.ShowDialog() == DialogResult.OK)
+            {
+                LoadCarList();
+                //Set focus car inserted
+                source.Position = source.Count - 1;
+            }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            try
+            {
+                var car = GetCarObject();
+                carRepository.DeleteCar(car.CarID);
+                LoadCarList();
+            }catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Delete a car");
+            }
+        }//end btnDelete_Click
 
-        }
+        private void btnClose_Click(object sender, EventArgs e) => Close();
+        
     }
 }
