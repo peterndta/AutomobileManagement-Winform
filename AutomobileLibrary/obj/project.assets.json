@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SonicMaster\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\HocTapTemp\\Code PRN\\AutomobileSolution\\AutomobileLibrary\\AutomobileLibrary.csproj",
+      "projectUniqueName": "E:\\Works\\CN5\\PRN211\\Code PRN\\AutomobileManagement-Winform\\AutomobileLibrary\\AutomobileLibrary.csproj",
       "projectName": "AutomobileLibrary",
-      "projectPath": "E:\\HocTapTemp\\Code PRN\\AutomobileSolution\\AutomobileLibrary\\AutomobileLibrary.csproj",
-      "packagesPath": "C:\\Users\\SonicMaster\\.nuget\\packages\\",
-      "outputPath": "E:\\HocTapTemp\\Code PRN\\AutomobileSolution\\AutomobileLibrary\\obj\\",
+      "projectPath": "E:\\Works\\CN5\\PRN211\\Code PRN\\AutomobileManagement-Winform\\AutomobileLibrary\\AutomobileLibrary.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "E:\\Works\\CN5\\PRN211\\Code PRN\\AutomobileManagement-Winform\\AutomobileLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SonicMaster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

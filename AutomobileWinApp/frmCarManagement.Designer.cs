@@ -42,6 +42,7 @@
             this.txtReleaseYear = new System.Windows.Forms.TextBox();
             this.txtManufacturer = new System.Windows.Forms.TextBox();
             this.dgvCarList = new System.Windows.Forms.DataGridView();
+            this.btnClose = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCarList)).BeginInit();
             this.SuspendLayout();
             // 
@@ -158,7 +159,7 @@
             // dgvCarList
             // 
             this.dgvCarList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCarList.Location = new System.Drawing.Point(152, 39);
+            this.dgvCarList.Location = new System.Drawing.Point(105, 288);
             this.dgvCarList.Name = "dgvCarList";
             this.dgvCarList.ReadOnly = true;
             this.dgvCarList.RowTemplate.Height = 25;
@@ -166,11 +167,21 @@
             this.dgvCarList.Size = new System.Drawing.Size(304, 150);
             this.dgvCarList.TabIndex = 13;
             // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(589, 236);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.TabIndex = 14;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            // 
             // frmCarManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.dgvCarList);
             this.Controls.Add(this.txtManufacturer);
             this.Controls.Add(this.txtReleaseYear);
@@ -211,5 +222,6 @@
         private System.Windows.Forms.TextBox txtReleaseYear;
         private System.Windows.Forms.TextBox txtManufacturer;
         private System.Windows.Forms.DataGridView dgvCarList;
+        private System.Windows.Forms.Button btnClose;
     }
 }

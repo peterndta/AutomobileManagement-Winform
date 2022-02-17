@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SonicMaster\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\HocTapTemp\\Code PRN\\AutomobileSolution\\AutomobileWinApp\\AutomobileWinApp.csproj",
+      "projectUniqueName": "E:\\Works\\CN5\\PRN211\\Code PRN\\AutomobileManagement-Winform\\AutomobileWinApp\\AutomobileWinApp.csproj",
       "projectName": "AutomobileWinApp",
-      "projectPath": "E:\\HocTapTemp\\Code PRN\\AutomobileSolution\\AutomobileWinApp\\AutomobileWinApp.csproj",
-      "packagesPath": "C:\\Users\\SonicMaster\\.nuget\\packages\\",
-      "outputPath": "E:\\HocTapTemp\\Code PRN\\AutomobileSolution\\AutomobileWinApp\\obj\\",
+      "projectPath": "E:\\Works\\CN5\\PRN211\\Code PRN\\AutomobileManagement-Winform\\AutomobileWinApp\\AutomobileWinApp.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "E:\\Works\\CN5\\PRN211\\Code PRN\\AutomobileManagement-Winform\\AutomobileWinApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SonicMaster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "E:\\HocTapTemp\\Code PRN\\AutomobileSolution\\AutomobileLibrary\\AutomobileLibrary.csproj": {
-              "projectPath": "E:\\HocTapTemp\\Code PRN\\AutomobileSolution\\AutomobileLibrary\\AutomobileLibrary.csproj"
+            "E:\\Works\\CN5\\PRN211\\Code PRN\\AutomobileManagement-Winform\\AutomobileLibrary\\AutomobileLibrary.csproj": {
+              "projectPath": "E:\\Works\\CN5\\PRN211\\Code PRN\\AutomobileManagement-Winform\\AutomobileLibrary\\AutomobileLibrary.csproj"
             }
           }
         }
@@ -78,6 +78,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.13, 5.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -86,7 +92,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
