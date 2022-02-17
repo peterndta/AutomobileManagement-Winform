@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "089bf0b1-56f6-4640-8f6c-84e6e29c8bca": {
+      "ProjectGuid": "089bf0b1-56f6-4640-8f6c-84e6e29c8bca",
+      "DisplayName": "AutomobileLibrary",
+      "ColorIndex": 0
+    },
+    "5de1117b-7425-428b-a206-cddee7fc3785": {
+      "ProjectGuid": "5de1117b-7425-428b-a206-cddee7fc3785",
+      "DisplayName": "AutomobileWinApp",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
